@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import { useGetGoodsQuery } from './redux';
 
 function App() {
+  const [count, setCount] = useState('');
   const { data = [], isLoading } = useGetGoodsQuery();
 
   if (isLoading) return <h1>Loading...</h1>;
