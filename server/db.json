@@ -19,6 +19,10 @@
     {
       "name": "bread",
       "id": 5
+    },
+    {
+      "name": "napkins",
+      "id": 6
     }
   ]
 }
